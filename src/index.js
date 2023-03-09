@@ -10,7 +10,7 @@ const root = createRoot(container);
 
 root.render(
   <ThemeProvider>
-    <App />
+    <App id="root" />
   </ThemeProvider>
 );
 
