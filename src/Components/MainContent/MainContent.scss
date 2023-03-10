@@ -1,0 +1,13 @@
+@import "../../Variables/Variables.scss";
+
+.container {
+  max-width: 1144px;
+  min-width: 324px;
+  width: 100%;
+  border: 1px solid $grayColor;
+}
+.titleBar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}

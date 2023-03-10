@@ -1,0 +1,12 @@
+.container {
+  max-width: 1144px;
+  min-width: 324px;
+  width: 100%;
+  border: 1px solid rgb(120, 120, 120);
+}
+
+.titleBar {
+  height: 80px;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=MainContent.css.map */
