@@ -3,6 +3,8 @@
 .container {
   max-width: 1144px;
   min-width: 324px;
+  min-height: 600px;
+  height: auto;
   width: 100%;
   border: 1px solid $grayColor;
 }
@@ -10,4 +12,5 @@
   height: 80px;
   display: flex;
   align-items: center;
+  width: 100%;
 }
