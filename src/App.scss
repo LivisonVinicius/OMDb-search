@@ -1,9 +1,9 @@
 .center {
-  //   display: flex;
-  //   justify-content: center;
-  //   align-items: center;
-  & > * {
-    width: 100% !important;
+  .ui5-shellbar-overflow-container-right {
+    display: none;
+  }
+  .ui5-shellbar-overflow-container-right {
+    display: none;
   }
 }
 
