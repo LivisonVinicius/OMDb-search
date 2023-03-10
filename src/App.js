@@ -1,6 +1,4 @@
-import { ShellBar } from "@ui5/webcomponents-react";
-import "./App.scss";
-import Logo from "./assets/images/imdb-logo.png";
+import "./App.css";
 import Navbar from "./Components/Navbar/Navbar";
 
 function App() {
