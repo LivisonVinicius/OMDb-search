@@ -14,4 +14,27 @@
   align-items: center;
   width: 100%;
   justify-content: flex-start;
+  border-bottom: 1px solid $grayColor;
+  padding-left: 10px;
+}
+
+.content {
+  min-height: 520px;
+  padding: 30px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.leftContent {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
+}
+.rightContent {
+  width: 430px;
+  display: flex;
+  flex-direction: column;
 }
