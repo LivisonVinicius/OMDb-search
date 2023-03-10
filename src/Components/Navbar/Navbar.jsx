@@ -1,17 +1,16 @@
 import React from "react";
 import "./Navbar.css";
 import Logo from "../../assets/images/imdb-logo.png";
-import ShellBar from "@ui5/webcomponents-fiori/dist/ShellBar";
+import { FlexBox } from "@ui5/webcomponents-react";
 
 function Navbar() {
   return (
-    <>
-      <ShellBar
-        logo={<img alt="IMDb Logo" src={Logo} />}
-        primaryTitle="IMDb search"
-        className="center"
-      />
-    </>
+    <header>
+      <FlexBox>
+        <img src={Logo} alt="Logo image" />
+        <h1>IMDb searcher</h1>
+      </FlexBox>
+    </header>
   );
 }
 
