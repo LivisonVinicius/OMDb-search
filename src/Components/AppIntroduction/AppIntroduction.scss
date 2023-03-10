@@ -1,7 +1,18 @@
 @import "../../Variables/Variables.scss";
 
 h2 {
-  font-size: 20px;
+  font-size: 24px;
   color: $blackColor;
   font-family: $titleFont;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+span {
+  font-size: 14px;
+  font-family: $bodyFont;
+  color: $blackColor;
+  text-align: center;
 }

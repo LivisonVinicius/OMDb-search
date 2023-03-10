@@ -1,5 +1,16 @@
 h2 {
-  font-size: 20px;
+  font-size: 24px;
   color: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+span {
+  font-size: 14px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(0, 0, 0);
+  text-align: center;
 }/*# sourceMappingURL=AppIntroduction.css.map */
