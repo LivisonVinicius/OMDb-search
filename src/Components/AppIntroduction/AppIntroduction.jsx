@@ -19,8 +19,11 @@ function AppIntroduction() {
         style={{
           color: "white",
           "background-color": "#cee000",
+          "margin-left": "10px",
         }}
-      />
+      >
+        Search
+      </Button>
     </div>
   );
 }
