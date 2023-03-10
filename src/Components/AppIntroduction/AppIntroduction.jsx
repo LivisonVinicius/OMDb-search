@@ -1,10 +1,10 @@
 import React from "react";
-import { TextArea, Button } from "@ui5/webcomponents-react";
+import { TextArea, Button, Input } from "@ui5/webcomponents-react";
 
 function AppIntroduction() {
   return (
     <div className="container">
-      <TextArea
+      <Input
         accessibleName="film"
         accessibleNameRef="film"
         onInput={function state() {}}
@@ -16,6 +16,10 @@ function AppIntroduction() {
         icon="search"
         onClick={function search() {}}
         accessibleName="search"
+        style={{
+          color: "white",
+          "background-color": "#cee000",
+        }}
       />
     </div>
   );
