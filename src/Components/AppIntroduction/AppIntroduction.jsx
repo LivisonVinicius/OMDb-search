@@ -10,6 +10,7 @@ function AppIntroduction() {
         onInput={function state() {}}
         placeholder="Movie's name here"
         value="film"
+        className="searchBar"
       />
       <Button
         design="Default"
