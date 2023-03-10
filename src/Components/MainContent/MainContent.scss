@@ -1,6 +1,6 @@
 @import "../../Variables/Variables.scss";
 
-.container {
+.containerContent {
   max-width: 1144px;
   min-width: 324px;
   min-height: 600px;
@@ -13,4 +13,5 @@
   display: flex;
   align-items: center;
   width: 100%;
+  justify-content: flex-start;
 }

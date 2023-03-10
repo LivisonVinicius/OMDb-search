@@ -21,6 +21,7 @@ function AppIntroduction() {
           color: "white",
           "background-color": "#cee000",
         }}
+        className="button"
       >
         Search
       </Button>
