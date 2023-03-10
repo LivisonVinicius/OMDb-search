@@ -1,5 +1,5 @@
 import React from "react";
-import { TextArea, Button, Input } from "@ui5/webcomponents-react";
+import { Button, Input } from "@ui5/webcomponents-react";
 
 function AppIntroduction() {
   return (
@@ -13,8 +13,7 @@ function AppIntroduction() {
         className="searchBar"
       />
       <Button
-        design="Default"
-        icon="search"
+        icon="sap-icon://search"
         onClick={function search() {}}
         accessibleName="search"
         style={{
