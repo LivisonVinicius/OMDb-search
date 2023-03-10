@@ -1,5 +1,6 @@
 import React from "react";
 import { Button, Input } from "@ui5/webcomponents-react";
+import "./AppIntroduction.css";
 
 function AppIntroduction() {
   return (
