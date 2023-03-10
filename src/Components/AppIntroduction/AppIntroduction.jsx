@@ -1,24 +1,22 @@
 import React from "react";
-import { Text, Title } from "@ui5/webcomponents-react";
+import { TextArea, Button } from "@ui5/webcomponents-react";
 
 function AppIntroduction() {
   return (
-    <div>
-      <Title
-        className="title"
-        style={{
-          color: "black",
-          "font-size": "24px",
-          "font-family": "Arial, Helvetica, sans-serif",
-          "font-weight": "bold",
-          "margin-top": "30px",
-          "margin-bottom": "15px",
-          "text-align": "center",
-        }}
-      >
-        Buscador de filmes
-      </Title>
-      <Text>Digite no na barra de pesquisa o título de filme desejado.</Text>
+    <div className="container">
+      <TextArea
+        accessibleName="film"
+        accessibleNameRef="film"
+        onInput={function state() {}}
+        placeholder="Movie's name here"
+        value="film"
+      />
+      <Button
+        design="Default"
+        icon="search"
+        onClick={function search() {}}
+        accessibleName="search"
+      />
     </div>
   );
 }

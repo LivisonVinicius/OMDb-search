@@ -8,7 +8,7 @@ function Navbar() {
     <header>
       <FlexBox alignItems="Center" justifyContent="Center" wrap="Wrap">
         <img src={Logo} alt="Logo image" />
-        <h1>IMDb searcher</h1>
+        <h1>Searcher</h1>
       </FlexBox>
     </header>
   );

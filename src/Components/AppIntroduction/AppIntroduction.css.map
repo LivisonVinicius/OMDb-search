@@ -1,1 +1,1 @@
-{"version":3,"sources":["AppIntroduction.scss","../../Variables/Variables.scss","AppIntroduction.css"],"names":[],"mappings":"AAEA;EACE,eAAA;EACA,4CCKS;EDJT,mBCHW;EDIX,kBAAA;AEDF","file":"AppIntroduction.css"}
+{"version":3,"sources":["AppIntroduction.scss","AppIntroduction.css"],"names":[],"mappings":"AAEA;EACE,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,mBAAA;ACDF","file":"AppIntroduction.css"}
