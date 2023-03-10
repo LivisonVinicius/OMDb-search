@@ -5,7 +5,7 @@ function AppIntroduction() {
   return (
     <div>
       <Title>Buscador de filmes</Title>
-      <Text></Text>
+      <Text>Digite no na barra de pesquisa o título de filme desejado.</Text>
     </div>
   );
 }
