@@ -1,5 +1,5 @@
 import React from "react";
-import "../Styles/Navbar.css";
+import "./Navbar.css";
 import Logo from "../../assets/images/imdb-logo.png";
 import ShellBar from "@ui5/webcomponents-fiori/dist/ShellBar";
 
