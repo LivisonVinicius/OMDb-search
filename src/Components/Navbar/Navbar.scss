@@ -1,6 +1,7 @@
-@import "../Variables/Variables.scss";
+@import "../../Variables/Variables.scss";
 
 header {
   height: 100px;
   background-color: $blackColor;
+  font-family: $titleFont;
 }
