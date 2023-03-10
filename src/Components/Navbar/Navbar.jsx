@@ -6,7 +6,7 @@ import { FlexBox } from "@ui5/webcomponents-react";
 function Navbar() {
   return (
     <header>
-      <FlexBox>
+      <FlexBox alignItems="Center" justifyContent="Center" wrap="Wrap">
         <img src={Logo} alt="Logo image" />
         <h1>IMDb searcher</h1>
       </FlexBox>
