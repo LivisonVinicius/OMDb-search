@@ -12,11 +12,15 @@ function MainContent() {
       <div className="content">
         <div className="leftContent">
           <img src="" alt="Poster" />
-          <RatingIndicator value={0} style="font-size: 28px" />
+          <RatingIndicator value={0} style={{ "font-size": "28px" }} />
         </div>
         <div className="rightContent">
-            <p>Actor: <span> </span></p>
-            <p>Sinopse:<span> </span></p>
+          <p>
+            Actor: <span> </span>
+          </p>
+          <p>
+            Sinopse:<span> </span>
+          </p>
         </div>
       </div>
     </div>
