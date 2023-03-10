@@ -8,9 +8,10 @@ header {
   justify-content: center;
   align-items: center;
   font-size: 36px;
+  font-weight: bold;
 }
 
-image {
+img {
   width: 100px;
   height: 50px;
 }/*# sourceMappingURL=Navbar.css.map */
