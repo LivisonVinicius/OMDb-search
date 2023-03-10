@@ -18,4 +18,15 @@ code {
   width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  max-width: 1144px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
 }/*# sourceMappingURL=App.css.map */
